@@ -1,0 +1,28 @@
+{
+  "name": "walkking",
+  "version": "1.0.0",
+  "description": "WalkKing is a tool that helps users track their daily steps and heart rate data using the Google Fit API. It enables users to sign in to their Google account and grants access to their Google Fit data, which is then stored in a database. The tool provides a leaderboard that ranks users based on the number of steps they take every day, and generates a daily message that is automatically sent to a WhatsApp group at 5pm, displaying the latest rankings. With WalkKing, users can compete with each other to see who takes the most steps, and stay motivated to stay active and healthy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreeyesh/WalkKing.git"
+  },
+  "author": "Shreeyesh Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreeyesh/WalkKing/issues"
+  },
+  "homepage": "https://github.com/shreeyesh/WalkKing#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^110.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.0.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
