@@ -20,7 +20,9 @@ npm install
 ```makefile
 GOOGLE_FIT_API_KEY=<Google Fit API Key>
 MONGODB_URI=<MongoDB Connection URL>
-WHATSAPP_API_KEY=<WhatsApp API Key>
+clientId = <your-client-id>;
+clientSecret = <your-client-secret>;
+redirectUri = <your-redirect-uri>;
 ```
 4. Run the script
 ```sql
@@ -31,4 +33,4 @@ npm start
 The tool currently only supports retrieving step count and heart rate data and generating a daily message. If you need to retrieve other types of data or generate messages at different times, you will need to modify the code.
 
 ## Conclusion
-This tool provides a basic implementation of retrieving data from Google Fit API and storing it in a MongoDB database. 
+This tool provides a basic implementation of retrieving data from Google Fit API and storing it in a MongoDB database, later that data will be segregated into leaderboards which will be sent as a whatsapp message at the time of winners announcement.
